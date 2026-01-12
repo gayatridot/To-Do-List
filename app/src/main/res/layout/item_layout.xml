@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/design_default_color_secondary"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- 1. The Item Number -->
+    <TextView
+        android:id="@+id/itemNumber"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <!-- 2. The Main Container (Title + Date/Time Row) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Task Title -->
+        <TextView
+            android:id="@+id/itemText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Row for Date and Time Range -->
+        <!-- Inside your vertical LinearLayout (under the Task Title) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <!-- Date on the LEFT -->
+            <TextView
+                android:id="@+id/itemDateDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Jan 2026"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+            <!-- SPACER: This pushes the time to the far right -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Time Range on the RIGHT -->
+            <TextView
+                android:id="@+id/itemDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00 AM - 10:00 AM"
+                android:textColor="#C2185B"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 3. Edit and Delete Icons -->
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:src="@android:drawable/ic_menu_edit"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:src="@android:drawable/ic_menu_delete"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+</LinearLayout>
