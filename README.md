@@ -30,7 +30,7 @@ This app helps you organize tasks, set reminders, and manage your schedule with 
 ## 🎥 Demo Video
 (Add your demo video link here – for example:)
 
-[▶️ Watch Demo](demo/demo.mp4)
+[▶️ Watch Demo]([demo/demo.mp4](https://drive.google.com/file/d/1-ri_UzxAKdth81aoGj3om_UOl44xjspn/view?usp=sharing))
 
 ---
 
