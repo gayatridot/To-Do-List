@@ -19,10 +19,11 @@ This app helps you organize tasks, set reminders, and manage your schedule with 
 <h2>📸 Screenshots</h2>
 
 <p align="center">
-  <img src="https://www.image2url.com/r2/default/images/1777462842674-7ae13e9e-406d-43d5-bda2-8ce2b48a3a7c.jpeg" alt="Home Screen" width="250" height="400" style="margin: 10px;"/>
-  <img src="https://www.image2url.com/r2/default/images/1777462627793-1f1faa11-8f22-45cf-84a4-c0dbc439af80.png" alt="Add Task" width="250" height="400" style="margin: 10px;"/>
-  <img src="https://www.image2url.com/r2/default/images/1777462773693-ac84cd65-0813-4ad3-8fb8-56b9afc3811a.jpg" alt="Reminder Notification" width="250" height="400" style="margin: 10px;"/>
+  <img src="https://www.image2url.com/r2/default/images/1777462842674-7ae13e9e-406d-43d5-bda2-8ce2b48a3a7c.jpeg" alt="Home Screen" width="250" height="400"/>
+  <img src="https://www.image2url.com/r2/default/images/1777462627793-1f1faa11-8f22-45cf-84a4-c0dbc439af80.png" alt="Add Task" width="250" height="400"/>
+  <img src="https://www.image2url.com/r2/default/images/1777462773693-ac84cd65-0813-4ad3-8fb8-56b9afc3811a.jpg" alt="Reminder Notification" width="250" height="400"/>
 </p>
+
 
 
 ---
