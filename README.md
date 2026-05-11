@@ -37,7 +37,7 @@ This app helps you organize tasks, set reminders, and manage your schedule with 
 ## 🛠️ Tech Stack
 - **Language:** Kotlin
 - **IDE:** Android Studio
-- **Frameworks:** Android SDK, Jetpack Components
+- **Frameworks:** Android SDK, Jetpack Components , xml layout.
 - **Notifications:** Android AlarmManager / WorkManager
 
 ---
